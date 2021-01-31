@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+ <editorsettings>
+  <export target="."/>
+ </editorsettings>
+ <tileset firstgid="1" source="dungeon.json"/>
+ <tileset firstgid="3214" name="tuxmon-sample-32px-extruded" tilewidth="32" tileheight="32" tilecount="775" columns="25">
+  <image source="../tuxmon-sample-32px-extruded.png" width="816" height="1020"/>
+ </tileset>
+ <tileset firstgid="3989" name="newmapsexample" tilewidth="32" tileheight="32" tilecount="775" columns="25">
+  <image source="../tuxmon-sample-32px-extruded.png" width="816" height="1020"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Capa de patrones 1" width="10" height="10">
+  <data encoding="csv">
+104,104,104,104,104,104,104,104,104,104,
+104,574,574,574,574,574,574,574,0,104,
+104,575,574,0,0,0,0,574,0,104,
+104,575,575,0,0,0,0,0,0,104,
+104,0,0,0,0,0,0,0,0,104,
+104,0,0,0,0,0,0,0,0,104,
+104,0,0,0,0,0,0,0,0,104,
+104,0,0,0,0,0,0,0,0,104,
+104,0,0,0,0,0,0,0,0,104,
+104,104,104,104,104,104,104,104,104,104
+</data>
+ </layer>
+</map>
